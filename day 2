@@ -4,4 +4,4 @@
 
 3] Oracle OOTB connector is deprecated -> Due to this organisations are using file based approach (Excel sheet - similar to import export)
 
-4]
+4] Mandatory Attributes for successful Identity Creation- UserName(UID) , Email ,LastName. (Without these identity can be created but that will be in error state).
