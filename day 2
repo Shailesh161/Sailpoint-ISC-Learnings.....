@@ -1,0 +1,7 @@
+1] Authoritative Source - Main trusted system from which SailPoint pulls the most accurate and official identity data
+
+2] Different types of HR tools - Workday , SAP , peoplesoft , Oracle HCM.
+
+3] Oracle OOTB connector is deprecated -> Due to this organisations are using file based approach (Excel sheet - similar to import export)
+
+4]
