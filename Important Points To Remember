@@ -1,0 +1,38 @@
+1] Automatic Scheduling (SailPoint Identity Processing)
+
+### Automatic Identity Processing
+
+* SailPoint **automatically runs identity processing twice a day**.
+* Default schedule (set by SailPoint):
+
+  * **8:00 AM CST/CDT**
+  * **8:00 PM CST/CDT**
+* During this process:
+
+  * Identities are refreshed
+  * Attribute changes are evaluated
+  * Lifecycle events and access changes are applied
+
+### Manual / Immediate Identity Processing
+
+* Sometimes changes are needed **immediately** (e.g., new attribute mapping, lifecycle rule update).
+* Instead of waiting for the scheduled run, we can trigger processing manually.
+
+#### How to trigger manual processing:
+
+1. Go to **Identity Profiles**
+2. Open the required **Identity Profile**
+3. Click on **Apply Changes**
+4. This triggers **immediate identity processing** for affected identities
+
+### Key Points
+
+* Automatic scheduling is **system-managed** by SailPoint
+* Manual processing is **admin-controlled**
+* Useful when testing changes or handling urgent updates
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2]
