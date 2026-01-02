@@ -1,1 +1,28 @@
 https://developer.sailpoint.com/docs/extensibility/transforms
+
+Custom transforms - e.g
+{
+    "id": "5b5fa77f-ac82-47e3-b02b-03f4392ec603",
+    "name": "shailesh_display_name",
+    "type": "concat",
+    "attributes": {
+        "values": [
+            {
+                "type": "accountAttribute",
+                "attributes": {
+                    "sourceName": "Shailesh_Oracle HCM",
+                    "attributeName": "LastName"
+                }
+            },
+            ", ",
+            {
+                "type": "accountAttribute",
+                "attributes": {
+                    "sourceName": "Shailesh_Oracle HCM",
+                    "attributeName": "FirstName"
+                }
+            }
+        ]
+    },
+    "internal": false
+}
